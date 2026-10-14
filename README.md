@@ -9,6 +9,14 @@ Built by [Specialized Projects Group](https://www.specializedprojectsgroup.com) 
 operation first. The public projection of our instance is on the
 [home page](https://www.specializedprojectsgroup.com); this repo is the pipeline behind it.
 
+## Credit
+
+The idea and the first recipe for a token-usage dashboard came from
+[Nate B Jones](https://natebjones.com) and his [newsletter](https://natesnewsletter.substack.com).
+His version had to infer usage from artifacts because the tooling did not meter. This one counts
+from the per-message usage record, which is the difference between an estimate and a number. The
+shape of the thing is his.
+
 ## What it does
 
 - **Reads Claude Code transcripts** (`~/.claude/projects/**/*.jsonl`) and, if present, Cowork's
