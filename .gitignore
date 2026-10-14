@@ -1,0 +1,14 @@
+# the store and everything rendered from it
+events.db
+events.db-journal
+dashboard.html
+public.json
+tally.log
+.tally.*
+
+# your real attribution map (projects.example.csv is the template)
+projects.csv
+projects.csv.baseline
+
+__pycache__/
+*.pyc

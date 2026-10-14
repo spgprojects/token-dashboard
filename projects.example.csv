@@ -1,0 +1,10 @@
+path_prefix,project,purpose,tier
+# Copy to projects.csv and replace with your own paths. Longest prefix wins, so order does not matter.
+# purpose vocabulary: client | product | content | internal-rd | ops | personal
+# tier: 1 = real project signal (default) | 2 = infrastructure, fallback only (memory, config, scratch)
+C:\dev\acme-portal,acme-portal,client,1
+C:\dev\widget-app,widget-app,product,1
+C:\Users\you\Documents\newsletter,newsletter,content,1
+C:\Users\you\Documents\experiments,experiments,internal-rd,1
+C:\Users\you\.claude,claude-config,ops,2
+C:\Users\you\scratch,scratch,ops,2
